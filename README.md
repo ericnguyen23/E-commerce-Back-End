@@ -25,7 +25,7 @@ This application provides an e-commerce business with the ability to view, add, 
 - `/api/products/:id` to view specific product
 - `POST`, `PUT`, and `DELETE` on `/api/products/` enpoint to add, edit and delete a product.
 
-## Video Link
+## Video Links
 
 [Video Demo: MySQL Schema & Seed](https://drive.google.com/file/d/1xcoM9lojJctXlUx2vfloFgePPAKZnJCa/view)
 
