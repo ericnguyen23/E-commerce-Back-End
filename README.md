@@ -31,7 +31,7 @@ This application provides an e-commerce business with the ability to view, add, 
 
 ### Screenshot of the project
 
-![screenshot](./image/screenshot.png)
+![screenshot](./image/screenshot-new.png)
 
 ## Credits
 
