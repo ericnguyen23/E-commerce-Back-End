@@ -34,15 +34,22 @@ router.post("/", (req, res) => {
     });
 });
 
-router.put("/:id", (req, res) => {
-  // update a category by its `id` value
-  Category.update(req.body, {
-    where: {
-      id: req.params.id,
-    },
-  }).then((category) => {
-    return Product.findAll({ where: { product_id: req.params.id } });
-  });
+router.put("/:id", async (req, res) => {
+  try {
+    const category = await Category.update(
+      {
+        category_name: req.body.category_name,
+      },
+      {
+        where: {
+          id: req.params.id,
+        },
+      }
+    );
+    res.status(200).json(category);
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
 router.delete("/:id", async (req, res) => {
