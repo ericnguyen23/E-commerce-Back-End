@@ -28,6 +28,7 @@ This application provides an e-commerce business with the ability to view, add, 
 ## Video Link
 
 [Video Demo: MySQL Schema & Seed](https://drive.google.com/file/d/1xcoM9lojJctXlUx2vfloFgePPAKZnJCa/view)
+
 [Video Demo: MySQL Workbench and Imsomnia](https://drive.google.com/file/d/1p_S_GD-wsIzsck1QCuzM56F20YG2MmWL/view)
 
 ### Screenshot of the project
